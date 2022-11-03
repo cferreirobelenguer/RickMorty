@@ -1,0 +1,56 @@
+/*Estilos de fuentes*/
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Medium.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.title{
+    font-family: "roboto";
+    color:rgb(34, 34, 37);
+    font-size:2vh;
+    padding: 50px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.containerCard{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.cardData{
+    padding: 20px;
+}
+.name{
+    font-family: "roboto";
+    color:rgb(34, 34, 37);
+    font-size:2vh;
+}
+.name:hover{
+    color:rgb(56, 99, 99)
+}
+.image{
+    border-radius: 50px;
+}
+.image:hover{
+    opacity: 0.5;
+}
+button{
+    border-style: solid;
+    border-color:transparent ;
+    border-radius: 10px;
+    background-color:rgb(146, 202, 202);
+}
+button:hover{
+    border-radius: 10px;
+    background-color: rgb(56, 99, 99);
+}
+

@@ -6,12 +6,21 @@
     font-style: normal;
     font-weight: normal;
 }
-.title{
-    font-family: "roboto";
-    color:rgb(34, 34, 37);
-    font-size:2vh;
-    padding: 50px;
+@font-face {
+    font-family: "archivoBlack";
+    src: url("../fonts/archivoblack.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
+.title{
+    font-family: "archivoBlack";
+    color:#202329;
+    font-size:5vh;
+    padding: 100px;
+    background-color: white;
+}
+
 .container{
     display:flex;
     flex-direction: column;
@@ -24,21 +33,56 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background-color: #202329;
+    color: white;
 }
 .cardData{
-    padding: 20px;
+    width: 80vh;
+    height: 48vh;
+    border-radius: 20px;
+    background-color: rgb(60, 62, 65);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:20px
+
+}
+.containerDates{
+    padding:20px
 }
 .name{
     font-family: "roboto";
-    color:rgb(34, 34, 37);
+    color:white;
+    font-size:2vh;
+}
+.gender{
+    font-family: "roboto";
+    color:white;
+    font-size:2vh;
+}
+.species{
+    font-family: "roboto";
+    color:white;
     font-size:2vh;
 }
 .name:hover{
-    color:rgb(56, 99, 99)
+    color:rgb(241, 132, 42)
 }
-.image{
-    border-radius: 50px;
+.gender:hover{
+    color:rgb(241, 132, 42)
+}
+.species:hover{
+    color:rgb(241, 132, 42)
+}
+.cardData img{
+    max-width: 80%;
+    border-radius: 20px;
+    
 }
 .image:hover{
     opacity: 0.5;
@@ -47,10 +91,15 @@ button{
     border-style: solid;
     border-color:transparent ;
     border-radius: 10px;
-    background-color:rgb(146, 202, 202);
+    background-color:#3C3E44;
 }
 button:hover{
     border-radius: 10px;
-    background-color: rgb(56, 99, 99);
+    background-color: rgb(241, 132, 42);
+}
+
+.containerButtons{
+    text-align: right;
+    padding:20px
 }
 

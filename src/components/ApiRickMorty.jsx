@@ -16,9 +16,10 @@ const ApiRickMorty=()=>{
     
     return(
         <>
+            
             <div className={StyleCard.container}>
                 <Card list={result}>
-                    <h1>FICHA DE RICK AND MORTY</h1>
+                    <h1>The Rick and Morty</h1>
                 </Card>
             </div>
             
